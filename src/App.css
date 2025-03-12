@@ -1,0 +1,24 @@
+.main-bg {
+  height: 300px;
+  background-image: url('./img/img2.png');
+  background-image: url('./img/img3.png');
+  background-size: contain; /* 이미지가 잘리지 않도록 컨테이너 안에 맞추기 */
+  background-repeat: no-repeat; /* 이미지 반복 방지 */
+  background-position: center;
+  margin-top: 56px;
+} 
+
+.justbutton{
+  display: flex;
+  justify-content: center;
+  align-items: center; 
+}
+
+.start {
+  opacity: 0;
+}
+.end {
+  opacity: 1;
+  transition: opacity 0.5s;
+  /* opacity를 0.5초에 걸쳐서 실행하게 해주세요  */
+}
